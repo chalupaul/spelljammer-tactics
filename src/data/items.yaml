@@ -1,0 +1,724 @@
+--- 
+-
+  name: Scroll of Guidance
+  cost: 1 
+  type: scroll
+  desc: Willing target you can see may reroll attack dice until the start of the next Round.
+-
+  name: Scroll of Fog Cloud 
+  cost: 1
+  type: scroll
+  desc: A 2x2 space area you can see grants Cover and blocks sight until the end of the Excursion.
+-
+  name: Scroll of Mage Armor
+  cost: 1
+  type: scroll
+  desc: Adjacent character gains Armor until they leave the Excursion.
+-
+  name: Scroll of Magic Missile
+  cost: 1
+  type: scroll
+  desc: Three targets you see take 1 Minor Wound. You can choose the same target multiple times.
+-
+  name: Scroll of Blur
+  cost: 1
+  type: scroll
+  desc: Melee attacks against adjacent character must reroll hits, taking the lower score. This effect lasts until the start of the next Round.
+-
+  name: Scroll of Flaming Sphere
+  mindice: 5
+  cost: 1
+  type: scroll
+  desc: Place a flaming sphere token in a space you can see within 6 spaces. When you take a Move action, you and the token share the total spaces moved. Characters that start their turn on the same space as the token or end their turn on an adjacent space take 1 Wound. The token stays in play until the caster leaves the Excursion.
+-
+  name: Scroll of Invisibility
+  mindice: 4
+  cost: 1
+  type: scroll
+  desc: You cannot be targeted until you take an action that deals direct damage or the Excursion ends.
+-
+  name: Scroll of Knock
+  cost: 1
+  type: scroll
+  desc: Open an adjacent Locked door.
+-
+  name: Scroll of Conjure Animals
+  mindice: 5
+  cost: 2
+  type: scroll
+  desc: A group of friendly animals are added to the initiative order under your control. This group will never be reinforced, never contribute to XP, and once the last creature is defeated the group is removed from initiative. The creatures disappear when the caster leaves the Excursion.
+-
+  name: Scroll of Haste
+  mindice: 4
+  cost: 2
+  type: scroll
+  desc: Target you can see gains Armor and gains 1 additional Action Dice for until the start of the next Round.
+-
+  name: Scroll of Hypnotic Pattern
+  mindice: 6
+  cost: 2
+  type: scroll
+  desc: All targets you specify that can see you make an Int roll. If they do not succeed, they are Stunned until the start of the next Round.
+-
+  name: Scroll of Stinking Cloud
+  mindice: 4
+  cost: 2
+  type: scroll
+  desc: a 4x4 space area fills with putrid yellow gas. The cloud blocks line of sight and grants Cover. Creatures that start their turn or use an action to enter those squares are Feeble and cannot make Actions other than Move. The cloud lasts until the Excursion ends.
+-
+  name: Scroll of Wind Wall
+  mindice: 4
+  cost: 2
+  type: scroll
+  desc: A straight line between any 2 points on opposite ends of the map that you can see now causes ranged attacks to fail against the direction you choose. The effect lasts until the Excursion ends.
+-
+  name: Scroll of Death Ward
+  mindice: 5
+  cost: 3 
+  type: scroll
+  desc: Adjacent target will immediately Recover one Action Dice when they would otherwise teleport to the ship. This will last until the Excursion ends or the Dice is recovered.
+-
+  name: Scroll of Dimension Door
+  mindice: 3
+  cost: 3
+  type: scroll
+  desc: You teleport to any square you can see or have previously seen in the Excursion. If you would arrive in the space occupied by a creature, that creature takes 2 Serious Wounds and the spell fails.
+-
+  name: Scroll of Fire Shield
+  mindice: 4
+  cost: 3
+  type: scroll
+  desc: All successful melee attacks against you cause 1 Minor Wound to the attacker. Effect lasts until you leave the Excursion.
+-
+  name: Scroll of Wall of Fire
+  mindice: 5
+  cost: 3
+  type: scroll
+  desc: A contiguous amount of spaces you choose up to 8 spaces is engulfed in flame. One side of the wall chosen by you will deal 1 Serious Wound at the start of any character’s turn to adjacent characters or if anyone moves into the spaces. This will last until the end of the Excursion.
+-
+  name: Scroll of Dominate Person
+  mindice: 5
+  cost: 3
+  type: scroll
+  desc: You control the target until it takes damage or you or the target leave the Excursion. The target will act on your initiative.
+-
+  name: Scroll of Hold Person
+  mindice: 4
+  cost: 3
+  type: scroll
+  desc: Target is Stunned until the start of the next Round.
+-
+  name: Scroll of Disintegrate
+  mindice: 6
+  cost: 4
+  type: scroll
+  desc: Target immediately fills all Action Dice spaces with Serious Wounds, overwriting any Minor Wound. This can also target magical effects, even permanent ones, and immediately end them.
+-
+  name: Scroll of Globe of Invulnerability
+  mindice: 6
+  cost: 4
+  type: scroll
+  desc: Targets within 2 spaces of you cannot be affected by spells originating from outside. Effect lasts until the start of the next Round.
+-
+  name: Scroll of Heal
+  mindice: 2
+  cost: 4
+  type: scroll
+  desc: A target you can see recovers all Action Dice squares.
+-
+  name: Scroll of Irresistible Dance
+  mindice: 4
+  cost: 4
+  type: scroll
+  desc: Target cannot move voluntarily from where it is until the start of the next Round. Missed attacks against this target can be rerolled.
+-
+  name: Scroll of Sunbeam
+  mindice: 4
+  cost: 4
+  type: scroll
+  desc: All targets on a straight line emanating from you to a space you can see take 5 Minor Wounds.
+-
+  name: Potion of Climbing
+  cost: 1
+  type: potion
+  desc: You can move through difficult terrain and impassable terrain as though it were normal until you leave the Excursion.
+-
+  name: Potion of Diminution
+  cost: 2c
+  type: potion
+  desc: You are 1 inch tall until the start of the next Round, but you automatically fail all Strength rolls. You cannot be targeted by attacks further than 1 space, and even then the attacker must reroll successful dice taking the worse result.
+-
+  name: Potion of Fire Breath
+  cost: 1
+  type: potion
+  desc: "You gain the following action until you leave the Excursion:\nFire Breath (3+): Range: 1-4: 2 Int, Attack deals Fire damage"
+-
+  name: Potion of Gaseous Form
+  cost: 2
+  type: potion
+  desc: You transform into a cloud of gas until the start of the next Round. You cannot be attacked by weapons, and you can pass through narrow openings.
+-
+  name: Potion of Growth
+  cost: 2
+  type: potion
+  desc: Until the start of the next Round, your size on the battlefield is now a 2x2 circle instead of 1 and you have d12 Strength and Vitality.
+-
+  name: Potion of Healing
+  cost: 1
+  type: potion
+  desc: Recover one Serious Wound.
+-
+  name: Potion of Invisibility
+  cost: 2
+  type: potion
+  desc: You become invisible until you attack a target or exit the Expedition.
+-
+  name: Potion of Invulnerability
+  cost: 3
+  type: potion
+  desc: You are immune to all damage until the start of the next Round.
+-
+  name: Potion of Maximum Power
+  cost: 3
+  type: potion
+  desc: Refresh your ActionDice pool with the six showing on the face of all available dice. You do not need to roll Attribute Dice until the start of the next Round, they are considered the maximum possible dice value.
+-
+  name: Potion of Poison
+  cost: 1
+  type: potion
+  desc: Indistinguishable from a Potion of Healing, but causes one Serious Wound to the imbiber.
+-
+  name: Potion of Heroism
+  cost: 2
+  type: potion
+  desc: Set a counter on your character sheet. You ignore the next Serious Wound, then set the counter aside ending the effect. This effect lasts until you exit the Excursion.
+-
+  name: Potion of Resistance
+  cost: 1
+  type: potion
+  desc: Choose one damage type other than normal. You gain armor against this damage type and downgrade all Serious Wounds caused by that type to Minor Wounds. This effect lasts until the start of the next Round.
+-
+  name: Potion of Speed
+  cost: 2
+  type: potion
+  desc: You gain Armor and 1 additional Action Dice until the start of the next Round.
+-
+  name: Adamantine Armor
+  cost: 2
+  type: item
+  desc: You have Armor. Serious Wounds against you are reduced to Minor Wounds.
+-
+  name: Amulet of Vitality
+  cost: 3
+  type: item
+  desc: Your Vitality dice is a d12.
+-
+  name: Belt of Giant Strength
+  cost: 3
+  type: item
+  desc: Your Strength dice is d12.
+-
+  name: Bag of Holding
+  cost: 2
+  type: item
+  desc: You can retain all other items on your inventory when emergency teleported to the ship, but the bag is destroyed.
+-
+  name: Bonecounter
+  cost: 3
+  type: item
+  desc: When this weapon destroys an undead creature, the wielder receives one Phlogiston Crystal.
+-
+  name: Boots of Striding and Springing
+  cost: 2
+  type: item
+  desc: Increase your Move by 2.
+-
+  name: Bracer of Flying Daggers
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nFlying Dagger (4+): Range: 1-4: 2 Agi or 2 Str."
+-
+  name: Blackpowder Pistol
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nPistol (4+): Range 2-4: 1d12. This item uses 1d12 instead of your attribute."
+-
+  name: Blinking Beans
+  cost: 3
+  type: consumable
+  desc: Spend an Action Die to Consume this item. When you suffer any Serious Wounds, you ignore them and teleport to a random space 1d4 spaces away, stopping short of teleporting inside impassable terrain or walls. Roll 1d10, losing the effect on a 1. If you have not lost this effect, it leaves by itself when you exit the Expedition.
+-
+  name: Bottled Wind
+  cost: 2
+  type: consumable
+  desc: Consume this item. All creatures within 3 spaces of you (including yourself) have a Move value of 0 until the start of the next Round.
+-
+  name: Bracers of Archery
+  cost: 2
+  type: item
+  desc: You always deal 2 Minor Wounds when using a Bow on any Success.
+-
+  name: Bottle of Strange Pills
+  cost: 2
+  type: item
+  desc: Spend an Action Die to gain immunity to Psychic damage until you exit the Excursion. After doing so, roll 1d10. On a 1, consume this item.
+-
+  name: Brooch of Shielding
+  cost: 2
+  type: item
+  desc: You are Immune to Magic Missile.
+-
+  name: Circlet of Blasting
+  cost: 2
+  type: item
+  desc: Once per Excursion, you can target three targets, dealing 1 Serious Wound to each. The same target can be targeted more than once.
+-
+  name: Cloak of Elvenkind
+  cost: 2
+  type: item
+  desc: Once per Excursion, you may spend 1 Action Die to become Invisible until you Attack or exit the Excursion.
+-
+  name: Confusion Rune
+  cost: 2
+  type: consumable
+  desc: Consume this item and spend an Action Die to cause a hostile creature you can see to consider friendly creatures hostile and hostile creatures friendly. This effect lasts until the end of the Excursion.
+-
+  name: Corrupting Rune
+  cost: 2
+  type: consumable
+  desc: Spend an Action Die to consume this rune and cause a hostile creature you can see suffer one Minor Wound at the start of every Round. During your turn, you can spend an Action Die to spread this corruption to a target adjacent to a creature marked by this rune already.
+-
+  name: Cold Iron Ingot
+  cost: 1
+  type: consumable
+  desc: Consume this item and you may reroll all failed Attack rolls against Fey creatures until the start of the next Round.
+-
+  name: Crystal Necklace
+  cost: 3
+  type: item
+  desc: You have Armor. You can Consume this item to gain immunity to Minor Wounds until the start of the next Round.
+-
+  name: Dimensional Holly Sprig
+  cost: 2
+  type: consumable
+  desc: Consume this item when a hostile creature begins their turn. That creature must consider each Range to be 1 greater than it is. Ranges further than the farthest amount are impossible to hit.
+-
+  name: Dust of Sneezing & Choking
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die to consume this item and cause the following effect. All creatures within 3 squares of you are unable to take any action other than Move until the start of the next Round.
+-
+  name: Dragon Slayer
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nRange: 1: 2 Str. When attacking a Dragon type enemy, all wounds dealt are Serious Wounds. The number of wounds dealt does not change."
+-
+  name: Edict of Lord Falder
+  cost: 1
+  type: item
+  desc: Consume this item and reroll all failed Attack rolls against Humanoid enemies until the start of the next Round.
+-
+  name: Fleet Foot Rune
+  cost: 1
+  type: consumable
+  desc: Consume this item and you no longer lose movement speed by being adjacent to enemies.
+-
+  name: Quiver of Ehlonna
+  cost: 4
+  type: item
+  desc: Once per Excursion, you may use Homing Arrows and roll 1d10. On a 1, this item is consumed.
+-
+  name: Explosive Shot
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die to consume this item. All ranged attacks you make target an additional adjacent target until the start of the next Round.
+-
+  name: Eyes of Minute Seeing
+  cost: 2
+  type: item
+  desc: You may take Search actions on 1+ Action Die.
+-
+  name: Featherluck
+  cost: 1
+  type: consumable
+  desc: You may consume this item to reroll any Action die.
+-
+  name: Flask of Bitterness
+  cost: 2
+  type: consumable
+  desc: Spend a 4+ Action Dice to Consume this hot bitter liquid and gain 1d4 Action Dice. Newly acquired Action Dice all have a 1 face.
+-
+  name: Folding Boat
+  cost: 3
+  type: item
+  desc: Can expand to fit 4 people and can act as both a waterborne and Astral Sea borne vessel. Comes with a Sail, Anchor, Rope, and some oars. When finished using it, folds everything up to fit into your pocket.
+-
+  name: Ghost Lantern
+  cost: 3
+  type: item
+  desc: Can take the Interact action on any space you can see. You can consume this item to discard any damage from any one Action you would otherwise receive.
+-
+  name: Glass Bead of Focus
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die to consume this item. You may reroll any Attribute Dice until the start of the next Round, choosing the second result.
+-
+  name: Glamorous Fake Mustache
+  cost: 4
+  type: item
+  desc: Once per Excursion, you can spend a 4+ Action Die and gain cover from all projectiles until the start of the next Round. Roll 1d10, consuming this item on a 1 as you run out of mustache wax.
+-
+  name: Glitterbomb
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die to consume this item and choose a space within Range 4. That space and all adjacent spaces are covered in thin shards of glass glitter. All creatures that enter that space take 1 Minor Wound and are slowed. The effect lasts until the Excursion ends.
+-
+  name: Gloves of Thievery
+  cost: 2
+  type: item
+  desc: Successful Melee attacks against creatures allow you to make an Agi roll, uncovering areas of interest on 2 Successes as though you were taking a Search Action on a space with a token.
+-
+  name: Headband of Intellect
+  cost: 2
+  type: item
+  desc: You have d12 Intellect.
+-
+  name: Hellfire Greatsword
+  cost: 2
+  type: item
+  desc: Enemies slain by this weapon have their souls sent to the River Styx. They will not count for reinforcement rolls. 
+-
+  name: Homing Arrows
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die and consume this item after making a ranged attack roll with a weapon that shoots arrows or bolts. You may choose to turn all misses into successes, or all successes into two wound successes. 
+-
+  name: Horn of Doom
+  cost: 2
+  type: consumable
+  desc: Consume this item and choose a Hostile group. All failed attacks against this group can be rerolled until the start of the next Round.
+-
+  name: Immovable Rod
+  cost: 2
+  type: item
+  desc: Spend an Action Dice to activate the rod causing it to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity.
+-
+  name: Insane Goblin Saw… Thing
+  cost: 4
+  type: consumable
+  desc: You can spend an Action Die to Consume this item. A target adjacent to you receives a number of wounds equal to the Action Die utilized.
+-
+  name: Jar of Lightning
+  cost: 2
+  type: consumable
+  desc: Spend a 4+ Action Dice to Consume this item and choose a space within Range 3. Make a 1d12 Lightning attack roll against any creature in that space. If the target is defeated, make an attack roll against each adjacent creature. Continue doing this until you run out of valid targets.
+-
+  name: Propeller Helm
+  cost: 2
+  type: item
+  desc: You can move over difficult and impassable terrain, so long as you do not end your turn in them.
+-
+  name: Jojo’s Gogo Juice
+  cost: 2
+  type: consumable
+  desc: Spend an Action Dice to consume this item and triple your movement value until the start of the next Round.
+-
+  name: Keoghtom’s Ointment
+  cost: 1
+  type: item
+  desc: "Spend an Action Die to recover 2 Serious Wounds. Roll a d6: On any result other than a 6, the item is consumed."
+-
+  name: Meditation Beads
+  cost: 2
+  type: item
+  desc: Once per Excursion, you can recover one Wound from your character.
+-
+  name: Mimic Scrap
+  cost: 2
+  type: consumable
+  desc: Use an Action Die to Consume this item immediately after another item is consumed by another character. You receive the item they consumed. Roll 1d10. On a 1, they receive a Mimic Scrap.
+-
+  name: Mindtrap Rune
+  cost: 2
+  type: consumable
+  desc: After an enemy group rolls for reinforcement, you can Consume this item to force a reroll of the result. You may choose either result.
+-
+  name: Mindspike Kazoo
+  cost: 2
+  type: consumable
+  desc: Consume this item and roll 1d10. For every enemy within Range 3, if the number on the result exceeds the amount of empty Action Dice squares, they are stunned until the start of the next Round. If the number is less than the number of wounds, they take 1 Minor Wound instead.
+-
+  name: Wand of Radiance
+  cost: 2
+  type: item
+  desc: When you cast a spell that deals damage, you can choose to change the type of damage to Radiant. You also can remove any source of unnatural darkness when you cast a Spell as part of its casting.
+-
+  name: Narra Root Extract
+  cost: 1
+  type: consumable
+  desc: Consume this item to gain 1 free movement Action until you leave the Expedition.
+-
+  name: Necklace of Adaptation
+  cost: 2
+  type: item
+  desc: You can breathe normally in any environment.
+-
+  name: Needler
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nNeedler: Range 1: 1 Str or 1 Agi. Once per Excursion you can use this Action. without expending Action Dice."
+-
+  name: Obsidian Orb
+  cost: 1
+  type: item
+  desc: A space you can see and all spaces adjacent to it emanate thick darkness blocking line of sight completely.
+-
+  name: Paper Scope
+  cost: 1
+  type: consumable
+  desc: Consume this item to take a free Aim action.
+-
+  name: Portable Surgeon
+  cost: 2
+  type: consumable
+  desc: Consume this item when you make a Medpack action. The target recovers all wounds regardless of type.
+-
+  name: Portalble
+  cost: 3
+  type: consumable
+  desc: When you take a Move action, you may consume this item to place a token under your character. Then move your character to any square you can see and place matching token underneath you. The squares with the tokens are considered adjacent on all sides.
+-
+  name: Prism of Perfect Refraction
+  cost: 3
+  type: consumable
+  desc: Consume this item and place a perfect illusory replica of yourself right beside you. It will mirror your actions and movement. Until the start of the next round, all wounds that hit you have a 50% chance of being redirected to your illusory double and lost.
+-
+  name: Spring Loaded Quiver
+  cost: 4
+  type: item
+  desc: Once per Excursion, all your ranged attacks double their dice. 
+-
+  name: Ring of Animal Influence
+  cost: 3
+  type: item
+  desc: Once per Excursion, you can spend an Action Die to choose to befriend any animal you encounter. This animal is now under your control and will take turns on your Initiative. Animals under the effects of this item cannot be teleported to the Ship or leave the Excursion.
+-
+  name: Ring of Evasion
+  cost: 3
+  type: item
+  desc: Once per Excursion, you can choose to ignore any damage dealt to you by an effect that targets multiple spaces.
+-
+  name: Ring of Future Sight
+  cost: 3
+  type: item
+  desc: Once per Excursion, you may change any dice roll to a two success result. Then roll 1d10, consuming this item on the result of a 1. 
+-
+  name: Ring of Mind Shielding 
+  cost: 2
+  type: item
+  desc: You are immune to magic that can make you lose control of your character.
+-
+  name: Ring of Regeneration
+  cost: 3
+  type: item
+  desc: When you take a Medpack Action, you can recover an additional Minor Wound.
+-
+  name: Ring of Resistance
+  cost: 3
+  type: item
+  desc: At the start of an Excursion, specify a damage type. You gain armor against this damage type and downgrade all Serious Wounds caused by that type to Minor Wounds.
+-
+  name: Ring of Shooting Stars
+  cost: 4
+  type: item
+  desc: "You gain the following Actions:\n*Lightning Ball (4+): 1 Int. Target is Stunned until the start of the next Round.\n*Reveal (3+): All invisible creatures within your normal sight lose that effect.\n*Shooting Star (6): Choose a space. All targets within 1 square of that space take 1 Serious Wound."
+-
+  name: Ring of Spell Storing
+  cost: 3
+  type: item
+  desc: You can spend an Action Die to consume a spell scroll to embed it with this ring. You can then cast that scroll once per Excursion from this Ring without consuming it. You may overwrite the Spell stored in the ring by undergoing the same procedure.
+-
+  name: Ring of the Ram
+  cost 3:
+  type: item
+  desc: Whenever you make a successful melee attack, you can push the target one space away from you for every success, choosing the path.
+-
+  name: Rite of Passage
+  cost: 3
+  type: consumable
+  desc: Spend an Action Die and consume this item. Then roll 1d10. All friendly characters who have less available Action Dice squares than the result are Invisible as though you had cast a Scroll of Invisibility on them.
+-
+  name: Rod of Absorption
+  cost: 5
+  type: item
+  desc: While holding this Rod, you can spend an Action Die to absorb a spell that targets you, canceling the effect. Then roll 1d10, consuming the item on the roll of a 1. This does not work with spells that target wide areas that you happen to be standing in.
+-
+  name: Rod of Lordly Might
+  cost: 5
+  type: item
+  desc: "You gain the following Actions:\nFlame Tongue (4+): Range 1: 1 Str, 1 Int\nSpear (4+): Range 1-2: 1 Str. All attacks made with this Action count as melee.\nPortable Ram (4+): Roll 1 Str. On success, you destroy a door.\nTerrify (5+): One target adjacent to you is Afraid of you until the start of the next Round."
+-
+  name: Rune of the Beasthunter
+  cost: 1
+  type: consumable
+  desc: Consume this item and you may reroll failed Attribute rolls against any Beast until the start of the next Round.
+-
+  name: Rune of Calm Owls
+  cost: 2
+  type: consumable
+  desc: You may spend a 6 Action Die to Consume this item. All Attribute Die costs you take are now 1+ until the start of the next Round. 
+-
+  name: Rune of Dark Thoughts
+  cost: 1
+  type: consumable
+  desc: Spend an Action Die and consume this item. Choose a hostile creature you can see and an Action that it can take. That creature will then target itself with the action using the Action Die you used with this item. Consider the Range on that Action to be 1.
+-
+  name: Rusty Gauntlet
+  cost: 3
+  type: item
+  desc: "You gain the following Action\nGauntlet: Range 1: 1 Str. If the result is 2 wounds, the target is Stunned. Regardless, roll 1d10. On a 1 the target suffers 1 additional wound (even if the attack missed) and this item is Consumed."
+-
+  name: Scorpion Armor
+  cost: 4
+  type: item
+  desc: "You are armored and immune to Poison damage. When you deal normal damage, you can choose to have that damage be Poison type. You gain the following Action:\nStinger (5+): 2 Agi."
+-
+  name: Seeking Shot
+  cost: 2
+  type: consumable
+  desc: Spend an Action Die and consume this item and roll 1 Int against a space you choose. If the result is 2 Successes, any character on the target space immediately fills all Action Dice squares with Serious Wounds, or else they take 1 Minor wound instead. You do not need to see the space to target it, only have been in the same room.
+-
+  name: Serpent’s Fang
+  cost: 4
+  type: item
+  desc: "You gain the following Actions\nSerpent’s Fang: Range 1: 1 Agi.\nSerpent’s Fang 4+: Range 1: 1 Agi. If the attack deals two Wounds, roll an additional d12 of Poison damage."
+-
+  name: Shadow Rune
+  cost: 3
+  type: consumable
+  desc: Spend an Action Die to consume this item and roll 1d10. Choose a target. If the number you roll is higher than the number of open Action Dice squares on the target, fill all Action Dice squares with Serious Wounds.
+-
+  name: Sovereign Glue
+  cost: 5
+  type: consumable
+  desc: Spend an Action Die to consume this item and place glue on 1 space adjacent to you. The first creature to enter that space cannot leave that space by any means. When this item is consumed, you gain 1 Universal Solvent item.
+-
+  name: Sphere of Annihilation
+  cost: 7
+  type item
+  desc: You can spend an Action Die to place a token adjacent to you. Creatures that are ever in the same square as this token take 2 Serious Wounds. You may spend an Action Die to move the sphere 4 spaces in a straight line in any direction you choose. The sphere will go through walls and all objects, destroying whatever it touches. If the sphere ever touches a portal or is teleported, you take 2 Serious Wounds of Psychic damage and this item is consumed. You can spend an Action Die to set the token aside, returning it to your inventory.
+-
+  name: Staff of Charming
+  cost: 4
+  type: item
+  desc: Once per Excursion, you can use this item as though you were using a Scroll of Dominate Person or Scroll of Irresistible Dance.
+-
+  name: Staff of Defense
+  cost: 3
+  type: item
+  desc: You are armored. Once per Excursion, you can choose to force an attacker to reroll all dice of an Action, taking the lower result.
+-
+  name: Staff of Healing
+  cost: 3
+  type: item
+  desc: When you use a Medpack Action, you can target anyone you can see.
+-
+  name: Staff of Striking
+  cost: 4
+  type: item
+  desc: "You gain the following Action:\nStrike (4+): Range 1: 2 Int. Once per excursion, you may double the dice rolled."
+-
+  name: Storm Boomerang
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nStorm Boomerang (3+): Range 2-4: 1 Int. On an attack that deals 2 Wounds, the Target is Stunned until the start of your next turn."
+-
+  name: Tanglefoot Bag
+  cost: 2
+  type: consumable
+  desc: Consume this item and target a hostile creature within 4 spaces. That target has a Move value of 0 until the start of the next Round.
+-
+  name: Tempest Grenade
+  cost: 3
+  type: consumable
+  desc: Spend a 6 Action Dice, consume this item, and choose a 2 space square area that you can see. It becomes a swirling storm vortex until the Excursion ends. At the start of every Round, move the squares 1d4 squares in a random direct line, stopping if it impacts a wall. All targets within the spaces take 2 Serious Wounds upon entering.
+-
+  name: Tentacle Rod
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nTentacle Rod (5+): Range 1-3: 3 Int. Attacks are considered Melee.\nEntangle (6): Range 1-3: Target is moved adjacent to you will move wherever you do until the start of the next Round."
+-
+  name: Tinsilver Mirror
+  cost: 3
+  type: item
+  desc: Once per Excursion, when a hostile target makes an attack against you, reflect all two wound success results back at them. Then roll 1d10, consuming this item on a 1-3. 
+-
+  name: Third Leg
+  cost: 2
+  type: item
+  desc: A harness with a clockwork leg attached. You gain +1 Movement.
+-
+  name: Transference Rune
+  cost: 2
+  type: consumable
+  desc: Spend an Action Die to Consume this item and swap the location of any hostile creature with any friendly creature. 
+-
+  name: Trident of Warning
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nTrident: Range 1: 1 Str. If you do not succeed, you can move your Initiative to any position at the end of your turn."
+-
+  name: Universal Solvent
+  cost: 5
+  type: consumable
+  desc: Spend an Action Die to consume this item and remove the effects of Sovereign Glue on a square adjacent to you.
+-
+  name: Vicious Mace
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nVicious Mace: Range 1: 1 Str. Attacks that deal two wounds instead deal 1 Serious Wound"
+- 
+  name: Vial of Dragon’s Blood
+  cost: 1
+  type: consumable
+  desc: Consume this item and you may reroll all failed attack rolls against Dragon type enemies until the start of the next Round.
+-
+  name: Vial of Spring Water
+  cost: 5
+  type: consumable
+  desc: Spend an Action Die to consume this item and roll 1d6. You may Recover Serious Wounds equal to the amount. If you wish, you can share the available amount with anyone you choose, and you specify how many Wounds they can recover from the total.
+-
+  name: Volatile Concoction
+  cost: 2
+  type: consumable
+  desc: Spend an Action Die and consume this item. Then choose one space within Range 3. All targets in and adjacent to that space take 1 Serious Wound.
+-
+  name: Wand of Lightning Bolts
+  cost: 4
+  type: item
+  desc: "You gain the following Action:\nLightning bolt (6): Roll 2 Int and apply the damage to all targets within a straight line of you and a point on a wall you can see."
+-
+  name: Wand of Magic Missiles
+  cost: 4
+  type: item
+  desc: You can spend an Action Dice with a value of 4+ as though you were using a Scroll of Magic Missiles.
+-
+  name: Wand of Web
+  cost: 3
+  type: item
+  desc: "You gain the Following Action\nWeb (6): A space you can see and all spaces adjacent to it become 3+ Difficult terrain. All creatures that enter the terrain become Slow. The effect lasts until you exit the Excursion."
+-
+  name: Winged Boots
+  cost: 3
+  type: item
+  desc: You ignore difficult and impossible terrain when you move.
+-
+  name: Woodcutter’s Axe
+  cost: 3
+  type: item
+  desc: "You gain the following Action:\nWoodcutter: Range 1: 1 Str. Double the dice against targets that are plants."
+-
+  name: Zombicidal Rune
+  cost: 1
+  type: consumable
+  desc: Consume this item and you may reroll all failed Attribute Dice against Undead targets until the start of the next Round.
