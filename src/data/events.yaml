@@ -1,0 +1,29 @@
+--
+-
+  name: Wrecked Hulk
+  desc: You find a wrecked galleon floating like a ghost ship. There are burn marks and splintered wood, tattered sails and long desicated corpses floating around the hulk. Do you investigate?
+  path:
+    investigate: Roll 1 Int.
+      fail: no reward.
+      success: 1d4 chunks
+      crit: 1d4 chunks + 1 random item
+    pass: You move on to your next location.
+-
+  name: Destroyed Asteroid
+  desc: You arrive at the location, but it is only floating rocks. It's as if the rock you were looking for smashed into something else. Do you go through carefully and risk damage, or do you find another way around?
+    go through: Roll 1 Agi.
+      fail: It takes you twice as long to get through as you expected. Lose 1 chunk.
+      success: You successfully navigate the debris field!
+      crit: You navigate the debris field in record time. Gain 1 chunk.
+    go around: It takes you much longer to go around than it would to go through. Lose 1 chunk.
+-
+  name: Floating Dinhgy
+  desc: As you arrive at the location, you see a small ship tied off at the surface. It's only big enough for one or two people to be aboard, but looks otherwise abandoned. Do you investigate the boat or pass on by?
+    investigate: Roll 1 Int
+      fail: You find two desecated corpses and dried waterskins near the boat in a small cavern. The boat's rudder was shot. There's no way they could have made it off this rock. You wonder how they got here in the first place. Is someone missing them?
+      success: You encounter a cast-away frantically trying to get your help. He says he's been here for almost a week, and is running out of air and water! He's hidden what little he has in a cave nearby, that you're more than welcome to if you take him along. Gain 1 magic item and 2 chunks and Crewman Nel.
+      crit: You encounter a second cast-away in the cave! Her name is Crewman Shel.
+    pass: As you depart, you are ambushed by pirates! You pull to stern as you see two crewman haul a treasure chest into the dinghy. If you defeat them, you gain 1d6 chunks and 1d4 magic items.
+-
+  name: Traveling Merchant
+  desc: You visit a small traveling caravan to resupply. When you reach down for your pouch, you find it missing! You turn around to see a small braym
